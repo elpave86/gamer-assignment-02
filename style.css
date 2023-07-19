@@ -250,3 +250,162 @@ figcaption {
     border-radius: 8px;
 
 }
+
+.fourth-part {
+    margin-top: 23px;
+    padding-top: 120px;
+    /* width: 1920px; */
+    height: 427px;
+    background: linear-gradient(90deg, rgba(231, 0, 119, 0.144) 0%, rgba(231, 0, 119, 0.411) 100%);
+
+}
+
+.icons {
+    max-width: 1400px;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 1800px;
+    height: 190px;
+}
+
+.icon1 {
+    width: 243px;
+    height: 80px;
+    border-radius: 50px;
+    align-items: center;
+    background: url('./images/Rectangle\ 11.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-position-x: 10px;
+    margin: 27px;
+
+
+}
+
+.icon2 {
+    width: 281px;
+    height: 80px;
+    border-radius: 50px;
+    align-items: center;
+    background: url('./images/Rectangle\ 12.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-position-x: 10px;
+    margin: 27px;
+
+}
+
+.icon3 {
+    width: 248px;
+    height: 80px;
+    border-radius: 50px;
+    align-items: center;
+    background: url('./images/Rectangle\ 13.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-position-x: 10px;
+    margin: 27px;
+
+
+}
+
+.icon4 {
+    width: 295px;
+    height: 80px;
+    border-radius: 50px;
+    align-items: center;
+    background: url('./images/Rectangle\ 14.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-position-x: 10px;
+
+    margin: 27px;
+
+}
+
+.icon5 {
+    width: 231px;
+    height: 80px;
+    border-radius: 50px;
+    align-items: center;
+    background: url('./images/Rectangle\ 15.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-position-x: 10px;
+    margin: 27px;
+
+
+}
+
+.icon6 {
+    width: 299px;
+    height: 80px;
+    border-radius: 50px;
+    background: url('./images/Rectangle\ 16.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    margin: 27px;
+
+
+}
+
+.icon7 {
+    width: 317px;
+    height: 80px;
+    border-radius: 50px;
+    align-items: center;
+    background: url('./images/Rectangle\ 17.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-position-x: 10px;
+    margin: 27px;
+
+
+}
+
+.icon8 {
+    width: 244px;
+    height: 80px;
+    border-radius: 50px;
+    align-items: center;
+    background: url('./images/Rectangle\ 18.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-position-x: 10px;
+    margin: 27px;
+
+
+}
+
+.icon9 {
+
+    width: 262px;
+    height: 80px;
+    border-radius: 50px;
+    background: url('./images/Rectangle\ 19.png'), rgb(255, 255, 255) 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: left;
+    background-position-x: 10px;
+    margin: 27px;
+
+
+}
+
+
+.icon-name {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 29px 20px 28px 86px;
+}
