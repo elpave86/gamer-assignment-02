@@ -1,0 +1,50 @@
+@media screen and (max-width:425px) {
+
+
+    .nav-container,
+    .nav-logo,
+    .nav-menu,
+    .followus-btn,
+    .gamer-logo,
+    .gamer-txt
+     {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    .first-part{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .first-right-img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .first-left-text{
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .second-part,
+    .game-collection{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+    .funny-title{
+        width: 100%;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .download-txt,
+    .instantly-txt,
+    .instant-details {
+        text-align: center;
+        width: 100%;
+        margin-left 0;
+
+    }
+
+}

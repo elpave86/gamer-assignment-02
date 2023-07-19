@@ -60,7 +60,10 @@
     color: #3C354F;
     font-size: 18px;
     font-weight: 500;
+}
 
+.flw-icon {
+    padding: 16px 18px 20px;
 }
 
 /* nav done */
@@ -190,7 +193,7 @@ figcaption {
 .third-part {
     display: flex;
     max-height: 950px;
-    max-width: 1920px;
+    /* max-width: 1920px; */
     align-items: center;
     max-width: 1400px;
     width: 1300px;
@@ -240,7 +243,6 @@ figcaption {
     flex-shrink: 0;
     border-radius: 8px;
     border: 10px solid #FFF;
-
 }
 
 .gun-img {
@@ -467,10 +469,10 @@ footer {
 
 .footer-icons {
 
-display: grid;
-grid-template-columns: repeat(6,1fr);
-width:700px;
-height: 40px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 700px;
+    height: 40px;
 }
 
 
@@ -499,6 +501,6 @@ height: 40px;
     margin-top: 28px;
 }
 
-.footer-icons{
-margin-top: 66px;
+.footer-icons {
+    margin-top: 66px;
 }
