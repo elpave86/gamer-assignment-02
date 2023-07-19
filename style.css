@@ -261,13 +261,13 @@ figcaption {
 }
 
 .icons {
-    max-width: 1400px;
-    align-items: center;
-    text-align: center;
+
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    width: 1800px;
-    height: 190px;
+    max-width: 1400px;
+    /* align-items: flex-start; */
+    margin: auto;
+    align-items: center;
 }
 
 .icon1 {
@@ -408,4 +408,76 @@ figcaption {
     font-size: 20px;
     font-weight: 600;
     padding: 29px 20px 28px 86px;
+}
+
+
+footer {
+    height: 636px;
+    flex-shrink: 0;
+    background: #0B0223;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    width: 253.041px;
+    height: 53px;
+    flex-shrink: 0;
+    padding-top: 120px;
+    padding-bottom: 66px;
+    align-items: center;
+}
+
+.footer-logo-gamer {
+    display: flex;
+    justify-content: center;
+    width: 86.041px;
+    height: 40px;
+    flex-: 0;
+}
+
+.footer-txt {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.story {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 60px;
+    width: 814px;
+}
+
+
+.story-li {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+}
+
+.footer-icons {}
+
+
+.termsandcond {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 60px;
+    width: 710px;
+    margin-top: 65px;
+}
+
+.terms-li {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
 }
